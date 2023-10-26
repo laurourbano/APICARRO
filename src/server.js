@@ -14,5 +14,5 @@ server.use(bodyParser.urlencoded({
 server.use("/api", routes);
 
 server.listen(process.env.PORT || 3000, () => {
-    console.log(`Server started on port ${process.env.PORT || 3000}`);
+    console.info(`Server started on port: ${process.env.PORT || 3000}`);
 });
