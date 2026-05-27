@@ -21,5 +21,12 @@
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
+  },
+  "overrides": {
+    "follow-redirects": "^1.15.6",
+    "vite": "^5.1.0",
+    "braces": "^3.0.3",
+    "postcss": "^8.4.31",
+    "ws": "^8.17.1"
   }
 }
